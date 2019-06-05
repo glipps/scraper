@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>LandScraper--Saved</title>
+	<title>Saved Articles</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|Handlee" rel="stylesheet">	
-	<link type="text/css" href="../css/style.css" rel="stylesheet" media="screen"> 
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <div id="primary">
-        <p>Scrape-this-News-- the latest headlines around the world!</p>
-    </div>
+            <div class="header">
+                    <h1>NY Times Scraper </h1>
+                    <p>-- Saved Articles--</p>
+                  </div>
     
     <div id="secondary">
-        <a id="headerButton" href="../html/index.html" role="button" class="btn btn-primary btn-lg btn-block">Return home</a>
+        <a id="headerButton" href="../html/index.html" role="button" class="btn btn-primary btn-sm">Return home</a>
     </div>
 
     <div id="saved" class="card" style="display: block">
-        <p class="card-header">Your saved articles:</p>
+        <p class="card-header">Saved articles:</p>
         <div id="savedArticlesDiv" class="card-body">
             <ol id="savedArticles"></ol>
         </div>
@@ -36,7 +37,7 @@
             <ul id="savedArticleNotes"></ul>
         </div>
         <div class="input-group">
-            <input id="noteTextInput" type="text" class="form-control" placeholder="Add new note" aria-label="Add new note with two button addons" aria-describedby="button-addon4">
+            <input id="noteTextInput" type="text" class="form-control" placeholder="New note" aria-label="Add new note with two button addons" aria-describedby="button-addon4">
             <div class="input-group-append" id="button-addon4">
                 
             </div>
@@ -45,7 +46,7 @@
 
 </body>
 
-<script type="text/javascript" src="../js/saved-logic.js"></script>
+<script type="text/javascript" src="../js/savedapp.js"></script>
 	
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
